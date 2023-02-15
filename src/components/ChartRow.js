@@ -1,5 +1,5 @@
 import React from 'react';
-const BACKEND_ADDRESS = 'http://localhost:3001';
+const BACKEND_ADDRESS = 'coleccionablesrw-production.up.railway.app';
 
 function ChartRow(props){
     let user = JSON.parse(sessionStorage.getItem('usuario'));

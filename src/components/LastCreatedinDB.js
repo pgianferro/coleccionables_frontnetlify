@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-const BACKEND_ADDRESS = 'http://localhost:3001';
+const BACKEND_ADDRESS = 'coleccionablesrw-production.up.railway.app';
 
 function LastCreatedinDB(){
 

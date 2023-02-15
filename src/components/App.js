@@ -11,7 +11,7 @@ import Login from './Login';
 import TopBar from './TopBar';
 import Footer from './Footer';
 
-const BACKEND_ADDRESS = 'http://localhost:3001';
+const BACKEND_ADDRESS = 'coleccionablesrw-production.up.railway.app';
 
 
 function App() {
