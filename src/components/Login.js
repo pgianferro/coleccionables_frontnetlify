@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { Redirect } from 'react-router-dom';
 const crypto = require("crypto-js");
 const BACKEND_ADDRESS = 'coleccionablesrw-production.up.railway.app';

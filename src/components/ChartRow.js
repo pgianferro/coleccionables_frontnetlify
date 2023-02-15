@@ -34,10 +34,10 @@ function ChartRow(props){
                         </ul>
                     </td>
                     <td>
-                        <a className="btn btn-info" target="_blank" rel="nofollow" href={props.view}>Ver</a><br />
+                        <a className="btn btn-info" target="_blank" rel="noopener noreferrer" href={props.view}>Ver</a><br />
                         { 
                             user ?  
-                            <a className="btn btn-danger text-white" target="_blank" rel="nofollow" onClick={deleteHandler}>Eliminar</a>
+                            <a className="btn btn-danger text-white" target="_blank" rel="noopener noreferrer" onClick={deleteHandler}>Eliminar</a>
                             : ''
                         }
                     </td>

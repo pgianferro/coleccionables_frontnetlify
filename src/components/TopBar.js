@@ -29,7 +29,7 @@ function TopBar(){
 	};
 
 
-const [user, setUser] = useSessionStorage('usuario','');
+const [user] = useSessionStorage('usuario','');
 
     return(
         <React.Fragment>

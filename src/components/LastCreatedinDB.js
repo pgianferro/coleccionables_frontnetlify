@@ -33,7 +33,7 @@ function LastCreatedinDB(){
                             <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 20 +'rem'}} src={product.image_url} alt={product.product_name}/>
                         </div>
                         <p>{product.short_description}</p>
-                        <a className="btn btn-danger" target="_blank" rel="nofollow" href={product.view}>Detalle producto</a>
+                        <a className="btn btn-danger" target="_blank" rel="noopener noreferrer" href={product.view}>Detalle producto</a>
                     </div>
                 </div>
             </div>
