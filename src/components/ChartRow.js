@@ -1,5 +1,7 @@
 import React from 'react';
 const BACKEND_ADDRESS = 'coleccionablesrw-production.up.railway.app';
+import {Link} from 'react-router-dom';
+
 
 function ChartRow(props){
     let user = JSON.parse(sessionStorage.getItem('usuario'));
@@ -37,7 +39,7 @@ function ChartRow(props){
                         <a className="btn btn-info" target="_blank" rel="noopener noreferrer" href={props.view}>Ver</a><br />
                         { 
                             user ?  
-                            <a className="btn btn-danger text-white" target="_blank" rel="noopener noreferrer" onClick={deleteHandler}>Eliminar</a>
+                            <a className="btn btn-danger text-white" target="_blank" rel="noopener noreferrer" href="" onClick={deleteHandler}>Eliminar</a>
                             : ''
                         }
                     </td>
