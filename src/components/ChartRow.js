@@ -1,6 +1,5 @@
 import React from 'react';
 const BACKEND_ADDRESS = 'coleccionablesrw-production.up.railway.app';
-import {Link} from 'react-router-dom';
 
 
 function ChartRow(props){
