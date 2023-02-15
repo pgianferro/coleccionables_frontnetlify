@@ -38,7 +38,7 @@ function ChartRow(props){
                         <a className="btn btn-info" target="_blank" rel="noopener noreferrer" href={props.view}>Ver</a><br />
                         { 
                             user ?  
-                            <a className="btn btn-danger text-white" target="_blank" rel="noopener noreferrer" href="" onClick={deleteHandler}>Eliminar</a>
+                            <button className="btn btn-danger text-white" target="_blank" rel="noopener noreferrer" onClick={deleteHandler}> Eliminar</button>
                             : ''
                         }
                     </td>
